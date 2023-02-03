@@ -1,0 +1,125 @@
+body,h2,h3 {
+    font-family: Roboto Slab;
+}
+#title {
+    background-color: rgb(188, 26, 233);
+    color: white;
+}
+h1 {
+    font-family: Dancing Script;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: Bold;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+.navbar-brand {
+    font-family: Roboto Slab;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Roboto Slab;
+}
+.Download-button {
+    margin: 5% 3% 5% 0%;
+}
+.title-image {
+    width:60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+h3 {
+    font-weight: bolder;
+}
+p {
+    color: gray;
+}
+.icon {
+    color: rgb(227, 127, 255);
+    margin-bottom: 1rem;
+}
+.icon:hover {
+    color: gray;
+}
+#testimonials {
+    text-align: center;
+    background-color: rgb(227, 127, 255);
+    color: white;
+}
+h2 {
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonials-image {
+    width: 20%;
+    margin: 20px;
+    border-radius: 100%;
+}
+#press {
+    background-color: rgb(227, 127, 255);
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column {
+    padding: 2% 3%;
+}
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+#cta {
+    background-color: rgb(227, 127, 255);
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading {
+    font-family: Roboto Slab;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: Bold;
+}
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon {
+    margin: 20px 10px;
+}
